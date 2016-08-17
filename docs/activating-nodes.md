@@ -54,20 +54,20 @@ for the following actions:
 
 ## MultiConnect® mDot™
   Through a serial terminal, use the following commands:
+
   ```
   AT
   AT+NJM=1
   AT+NI=0,0807060504030201
   AT+NK=0,01020304050607080910111213141516
   AT&W
-
   ATZ
-
   AT+JOIN
   ```
 
   For mDot™ we can't modify DevEUI, it's a factory-programmed setting
   use the following command to obtain it
+
   ```
   AT+DI?
   ```
