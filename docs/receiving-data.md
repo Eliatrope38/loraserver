@@ -19,6 +19,7 @@ Topic for payloads received from your nodes. Example payload:
 ```json
 {
     "devEUI": "0202020202020202",  // device EUI
+    "Time": "", // Received Time of packet
     "fPort": 5,                    // FPort
     "gatewayCount": 3,             // number of gateways receiving this payload
 	"rssi": -59,                   // signal strength
